@@ -2,7 +2,7 @@
 
 To help keep track on your next basketball game.
 
-**Link to project:**
+**Link to project:** https://basketball-scoreboard-brianbud.netlify.app/
 
 ![basketball scorebard](./scoreboard.gif)
 
