@@ -1,0 +1,39 @@
+<html>
+
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+	<main>
+		<div class="container">
+			<div>
+				<h3 class="title">HOME</h3>
+				<div class="score" id="home-score">0</div>
+				<div class="points-counter-btns">
+					<div onclick="addOneToHome()">+1</div>
+					<div onclick="addTwoToHome()">+2</div>
+					<div onclick="addThreeToHome()">+3</div>
+				</div>
+			</div>
+			<div id="new-game">
+				<button onclick="reset()">New Game</button>
+			</div>
+			<div>
+				<h3 class="title">GUEST</h3>
+				<div class="score" id="guest-score">0</div>
+				<div class="points-counter-btns">
+					<div onclick="addOneToGuest()">+1</div>
+					<div onclick="addTwoToGuest()">+2</div>
+					<div onclick="addThreeToGuest()">+3</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<script src="index.js"></script>
+</body>
+
+</html>

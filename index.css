@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "Cursed Timer ULiL Font";
+  src: url("./CursedTimerUlil-Aznm.ttf");
+}
+
+body {
+    font-family: "Cursed Timer ULiL Font", "Orbitron", sans-serif;
+    margin: 0;
+    background: #073763;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 100vh;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+button {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #B60000;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #A30000;
+}
+
+.title {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 155px;
+    height: 150px;
+    color: #F94F6D;
+    background-color: #080001;
+    font-size: 100px;
+    border-radius: 10px;
+}
+
+.points-counter-btns{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 6px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.points-counter-btns > div {
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+}
